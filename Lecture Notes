@@ -28,7 +28,19 @@ regression tries to find the function that fits the data best.
 
 unsupervised learning (no feedback):
 clustering, finding associations or features in unlabeled data.
+No training data, useful when none available. Can find clusters C (clustering), associations C with high occurences (association rule mining), or dependencies C with high correlations/variations (feature selection)
+Partitioning clustering looks to find outliers (outlier analysis)
+
 semi- or self-supervised learning - a mix of both
+uses small amount of labeled data to create a training data set with a large amount of unlabeled data. 
+Predict any part of input from any other part. Predict the future from the past, or the past from the present. Scalable, can understand and mimic how the human mind works.
 
-reinforcement learning (reward system) - learn rules or actions by trial-and-error to REINFORCE.
 
+reinforcement learning (reward system) - learn rules or actions by trial-and-error to REINFORCE. Goal-directed through series of actions resulting in consequences as rewards. The agent adapts by exploring a variety of actions favoring short-term rewards ultimately aiming for the maximum long-term reward.
+This is neither supervised nor unsupervised learning because it keeps on adapting variety of actions producing the most reward. Best action is taken by exploiting reward through improved policy.
+
+Shallow learning unable to find complex patterns. Deep learning attempts to mimic the human brain with many layers of processing to extract feature from data, while refining the model for accuracy.
+
+Transfer learning – a model trained in one task is adapted/transferred to work on other related tasks. Transfer knowledge learned from a source to other learning tasks.
+
+Data mining – non-trivial process of identifying valid, novel, potentially useful, and understandable patterns in typically large data, ultimately understanding the data beyond traditional statistical analysis.
