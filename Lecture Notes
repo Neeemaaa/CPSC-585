@@ -17,8 +17,18 @@ data set without label is most common
 training data set have labels
 
 Rote learning - memorization and simple matching
-Supervised learning (direct feedback, predict outcomes) - learning by examples in a training data set
-unsupervised learning (no feedback) - clustering, finding associations or features in unlabeled data.
+Supervised learning (direct feedback, predict outcomes):
+learning by examples in a training data set
+learning f is called training.
+if function f is used to predict continuous value y: this is regression
+if classifier f is used to determine discrete value y: this is classification
+classification tries to find the decision boundary that separates the different groups of data
+regression tries to find the function that fits the data best.
+
+
+unsupervised learning (no feedback):
+clustering, finding associations or features in unlabeled data.
 semi- or self-supervised learning - a mix of both
+
 reinforcement learning (reward system) - learn rules or actions by trial-and-error to REINFORCE.
 
