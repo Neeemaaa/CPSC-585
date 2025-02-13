@@ -4,5 +4,13 @@ Machine Learning – study of methods to develop a system that can learn.
 Key is to acquire knowledge by finding patterns, relationships, or policies.
 Learns from input data, including training data (with label), unlabeled data, experience data in an environment.
 
+Workflow: data processing, modeling, deployment
+0. Retrieve data
+1. clean and explore
+1. prepare/transform
+2. develop and train model
+2. validate/evaluate model
+3. deploy to production
+3. monitor and update model & data
 Rote learning
 Supervised learning
