@@ -12,5 +12,13 @@ Workflow: data processing, modeling, deployment
 2. validate/evaluate model
 3. deploy to production
 3. monitor and update model & data
-Rote learning
-Supervised learning
+
+data set without label is most common
+training data set have labels
+
+Rote learning - memorization and simple matching
+Supervised learning (direct feedback, predict outcomes) - learning by examples in a training data set
+unsupervised learning (no feedback) - clustering, finding associations or features in unlabeled data.
+semi- or self-supervised learning - a mix of both
+reinforcement learning (reward system) - learn rules or actions by trial-and-error to REINFORCE.
+
